@@ -13,3 +13,19 @@ export interface profile{
     upcoming:number;
     files:string[];
 }
+
+export interface profileProperty{
+    title:string;
+    value:string;
+}
+
+export interface appoitment{
+    time:{
+        date:string;
+        startTime:string;
+        endTime:string;
+    };
+    treatment:string;
+    dentist:string;
+    nurse:string;
+}

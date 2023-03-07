@@ -56,9 +56,9 @@ function NavigationBar() {
         </svg>
       </div>
       {navigationComponents.map((item, index) => (
-        <div className="flex flex-col space-y-2 items-center">
-          <h5 className="font-light text-gray-500 ">{item.title}</h5>
+        <div className="flex flex-col space-y-2 items-center cursor-pointer  ">
           {item.icon}
+          <h5 className="font-light text-gray-500 ">{item.title}</h5>
         </div>
       ))}
     </div>
