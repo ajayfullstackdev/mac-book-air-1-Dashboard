@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import NavigationBar from "./components/NavigationBar";
-import ja_morant from "./assets/ja_morant.jpg";
+import ja_morant from "./assets/p.svg";
 import ProfileView from "./components/ProfileView";
 import { profileProperty } from "./utils/types";
 import TabbedComponent from "./components/TabbedComponent";
@@ -67,7 +67,7 @@ function App() {
               </div>
             ))}
           </div>
-        <TabbedComponent />
+          <TabbedComponent />
         </div>
       </div>
     </div>
